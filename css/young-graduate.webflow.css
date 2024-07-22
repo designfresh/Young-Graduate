@@ -5790,6 +5790,10 @@
   text-decoration: none;
 }
 
+.text-115.black {
+  color: var(--black);
+}
+
 .section-5 {
   background-image: linear-gradient(#190b28, #4da7b5);
   flex-direction: column;
