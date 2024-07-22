@@ -1883,7 +1883,7 @@
 }
 
 .image-8 {
-  background-image: url('../images/Image.png');
+  background-image: url('../images/Image_1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5843,6 +5843,10 @@
   color: #000;
 }
 
+.text-117.bold.small.black {
+  font-size: .95rem;
+}
+
 .frame-12 {
   grid-column-gap: 10px;
   background-color: #fcef4d;
@@ -6403,8 +6407,8 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-decoration: none;
   display: flex;
 }
@@ -6875,7 +6879,13 @@
 }
 
 .efi-hr-03-image {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
   height: 100%;
+  display: grid;
 }
 
 .efi-button {
@@ -7266,6 +7276,11 @@
     line-height: 1.8rem;
   }
 
+  .text-117.bold.small {
+    color: var(--dark-purple);
+    font-size: 1rem;
+  }
+
   .column-72 {
     width: 60%;
   }
@@ -7291,6 +7306,13 @@
 
   .container-17 {
     max-width: 1200px;
+  }
+
+  .gallery-feature {
+    background-image: url('../images/check-circle-duotone.svg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0 0, 0%;
+    background-repeat: repeat, no-repeat;
+    background-size: contain, 20px;
   }
 
   .image-35 {
