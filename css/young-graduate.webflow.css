@@ -5720,6 +5720,7 @@
   padding-right: 24px;
   text-decoration: none;
   display: flex;
+  position: fixed;
 }
 
 .navbar-logo-left-12.masterclass {
@@ -5804,7 +5805,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 157px;
   padding-bottom: 40px;
   text-decoration: none;
   display: flex;
@@ -6927,6 +6928,7 @@
   color: var(--white);
   font-size: 20px;
   font-weight: 400;
+  line-height: 30px;
 }
 
 .efi-hr-03-right-content {
@@ -7254,8 +7256,8 @@
 }
 
 .fn-section-2 {
+  background-color: var(--dark-purple);
   color: #ecf0ef;
-  background-color: #1d1f1e;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -7841,6 +7843,10 @@
   .container-12 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .section-5 {
+    padding-top: 91px;
   }
 
   .column-69 {
